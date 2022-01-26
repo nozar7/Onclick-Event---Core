@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Onclick Event</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="nav">
+        <h1>Music Store</h1>
+        <input id="search" type="text" autofocus placeholder="search music..." />
+        <button onclick="changeText(this)">Login</button>
+      </div>
+    <div class="contenedor">
+      <div class="bloque1">
+        <div class="card">
+          <div class="card-bloque1">
+            <h2>Sunflower</h2>
+            <h4>Post Malone</h4>
+            <button>476 M Rep</button>
+          </div>
+          <div class="card2-bloque1">
+            <p>
+              It was released as a single from the soundtrack to the 2018
+              animated film Spider-Man: Into the Spider-Verse
+            </p>
+          </div>
+        </div>
+        <div class="card">
+            <div class="card-bloque1">
+              <h2>Someone you</h2>
+              <h4>Lewis Capaldi</h4>
+              <button>1249 M Rep</button>
+            </div>
+            <div class="card2-bloque1">
+              <p>
+                It was released as a single from the soundtrack to the 2018
+                animated film Spider-Man: Into the Spider-Verse
+              </p>
+            </div>
+          </div>
+      </div>
+      <div class="bloque2">
+        <div class="card2">
+          <h2>The playlist is for you</h2>
+          <button onclick="deleteButton(this)">Add song</button>
+        </div>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
